@@ -18,6 +18,7 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 * 3/2/2020 - Added specs to README.md (0.5 hours)
 * 3/3/2020 - Added additional specs to README.md (0.5 hours)
 * 3/3/2020 - Added and troubleshot jest tests (1.0 hours)
+* 3/3/2020 - Added tests and code for specs (3 hours)
 
 
 ### Specifications:
@@ -29,13 +30,13 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | **Class constructor calls a function to return age in Venus years (age/.62 Earth years)** | 42 | 67.74 ✓ |
 | **Class constructor calls a function to return age in Mars years (age/1.88 Earth years)** | 42 | 22.34 ✓ |
 | **Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)** | 42 | 3.54 ✓ |
-| **Class contains a function to set a property for average life expectancy** | 80 | 80 |
-| **Class contains a function to calculate life expectancy** | set 80 | get 80 |
-| **Class contains a function to return how many Earth years a person is expected to live** | age: 20; expectancy: 80 | left: 60 |
-| **Class contains a function to return how many Mercury years a person is expected to live** | age: 20; expectancy: 80 | left: 250 |
-| **Class contains a function to return how many Venus years a person is expected to live** |  |  |
-| **Class contains a function to return how many Mars years a person is expected to live** |  |  |
-| **Class contains a function to return how many Jupiter years a person is expected to live** |  |  |
+| **Class contains a function to set a property for average life expectancy** | 80 | 80 ✓ |
+| **Class contains a function to calculate life expectancy** | set 80 | get 80 ✓ |
+| **Class contains a function to return how many Earth years a person is expected to live** | age: 20; expectancy: 80 | left: 60 ✓ |
+| **Class contains a function to return how many Mercury years a person is expected to live** | age: 20; expectancy: 80 | left: 250 ✓ |
+| **Class contains a function to return how many Venus years a person is expected to live** | age: 20; expectancy: 80 | left: 96.77 |
+| **Class contains a function to return how many Mars years a person is expected to live** | age: 20; expectancy: 80 | left: 31.91 |
+| **Class contains a function to return how many Jupiter years a person is expected to live** | age: 20; expectancy: 80 | left: 5.06 |
 | **(Optional) Add a UI** |  |  |
 | **(Optional) Return the age Keith Richards will be in dog years on the planet Jupiter in 2073** |  |  |
 | **(Optional) Determine how many mayfly lifespans a person has lived (5 minutes) and compare to age of the sun in Earth years** |  |  |
