@@ -2,13 +2,12 @@
   "name": "epicodus-age-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "age.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "npm run build; jest",
-    "debug": "node --inspect node_modules/.bin/jest --runInBand"
+    "test": "npm run build; jest"
   },
   "keywords": [],
   "author": "",
