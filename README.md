@@ -17,6 +17,7 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 * 3/2/2020 - Created skeleton project and added templates (0.5 hours)
 * 3/2/2020 - Added specs to README.md (0.5 hours)
 * 3/3/2020 - Added additional specs to README.md (0.5 hours)
+* 3/3/2020 - Added and troubleshot jest tests (1.0 hours)
 
 
 ### Specifications:

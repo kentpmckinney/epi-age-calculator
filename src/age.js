@@ -1,4 +1,4 @@
-class Age {
+export class Age {
 
   constructor(earthYears) {
     this.earthYears = earthYears;
