@@ -26,13 +26,13 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | :------------- | :------------- | :------------- |
 | **Class constructor accept a person's age in Earth years and creates an valid object** | age = new Age(10) | age.earthYears == 10 ✓ |
 | **Class constructor calls a function to return age in Mercury years (age/.24 Earth years)** | 42 | 175 ✓ |
-| **Class constructor calls a function to return age in Venus years (age/.62 Earth years)** | 42 | 67.74 |
-| **Class constructor calls a function to return age in Mars years (age/1.88 Earth years)** | 42 | 22.34 |
-| **Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)** | 42 | 3.54 |
-| **Class contains a function to set a property for average life expectancy** | N | N |
-| **Class contains a function to calculate life expectancy** |  |  |
-| **Class contains a function to return how many Earth years a person is expected to live** |  |  |
-| **Class contains a function to return how many Mercury years a person is expected to live** |  |  |
+| **Class constructor calls a function to return age in Venus years (age/.62 Earth years)** | 42 | 67.74 ✓ |
+| **Class constructor calls a function to return age in Mars years (age/1.88 Earth years)** | 42 | 22.34 ✓ |
+| **Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)** | 42 | 3.54 ✓ |
+| **Class contains a function to set a property for average life expectancy** | 80 | 80 |
+| **Class contains a function to calculate life expectancy** | set 80 | get 80 |
+| **Class contains a function to return how many Earth years a person is expected to live** | age: 20; expectancy: 80 | left: 60 |
+| **Class contains a function to return how many Mercury years a person is expected to live** | age: 20; expectancy: 80 | left: 250 |
 | **Class contains a function to return how many Venus years a person is expected to live** |  |  |
 | **Class contains a function to return how many Mars years a person is expected to live** |  |  |
 | **Class contains a function to return how many Jupiter years a person is expected to live** |  |  |
