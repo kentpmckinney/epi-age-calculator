@@ -27,6 +27,10 @@ export class Age {
     return parseFloat((earthYears/.62).toFixed(2));
   }
   
+  calculateVenusYearsLeft() {
+    return parseFloat((this.calculateVenusYears(this._avgLifeExpectancy)-this.mercuryYears).toFixed(2));
+  }
+
   calculateMarsYears(earthYears) {
     return parseFloat((earthYears/1.88).toFixed(2));
   }
@@ -39,6 +43,7 @@ export class Age {
     this._avgLifeExpectancy = earthYears;
     this.earthYearsLeft = this.calculateEarthYearsLeft();
     this.mercuryYearsLeft = this.calculateMercuryYearsLeft();
+    this.venusYearsLeft = this.calculateVenusYearsLeft();
   }
 
   get avgLifeExpectancy() {
