@@ -6,7 +6,7 @@ export class Age {
   }
 
   calculateMercuryYears(earthYears) {
-    return earthYears/.24;
+    return (earthYears/.24).toFixed(2);
   }
 
 }

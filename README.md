@@ -25,7 +25,7 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
 | **Class constructor accept a person's age in Earth years and creates an valid object** | age = new Age(10) | age.earthYears == 10 ✓ |
-| **Class constructor calls a function to return age in Mercury years (age/.24 Earth years)** | 42 | 175 |
+| **Class constructor calls a function to return age in Mercury years (age/.24 Earth years)** | 42 | 175 ✓ |
 | **Class constructor calls a function to return age in Venus years (age/.62 Earth years)** | 42 | 67.74 |
 | **Class constructor calls a function to return age in Mars years (age/1.88 Earth years)** | 42 | 22.34 |
 | **Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)** | 42 | 3.54 |
