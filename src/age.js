@@ -2,11 +2,16 @@ export class Age {
 
   constructor(earthYears) {
     this.earthYears = earthYears;
+    this.earthYearsLeft;
     this.mercuryYears = this.calculateMercuryYears(earthYears);
     this.venusYears = this.calculateVenusYears(earthYears);
     this.marsYears = this.calculateMarsYears(earthYears);
     this.jupiterYears = this.calculateJupiterYears(earthYears);
     this._avgLifeExpectancy;
+  }
+
+  calculateEarthYearsLeft() {
+    return parseFloat((this._avgLifeExpectancy-this.earthYears).toFixed(2));
   }
 
   calculateMercuryYears(earthYears) {
@@ -27,12 +32,13 @@ export class Age {
 
   set avgLifeExpectancy(earthYears) {
     this._avgLifeExpectancy = earthYears;
+    this.earthYearsLeft = this.calculateEarthYearsLeft();
   }
 
   get avgLifeExpectancy() {
     return this._avgLifeExpectancy;
   }
   
-
+  
 
 }
