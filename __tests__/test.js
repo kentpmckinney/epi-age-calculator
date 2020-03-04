@@ -31,7 +31,9 @@ describe('The Age class', () => {
 	});
 
 	test('Class contains a function to set a property for average life expectancy', () => {
-		
+		let age = new Age(100);
+		age.setAvgLifeExpectancy(80);
+		expect(age.avgLifeExpectancy).toEqual(80);
 	});
 
 	test('Class contains a function to calculate life expectancy', () => {
