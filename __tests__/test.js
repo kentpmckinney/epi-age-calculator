@@ -7,8 +7,12 @@ describe('The Age class', () => {
 		age = new Age(10);
 	});
 
-	test('Age object was created properly', () => {
+	test('Class constructor accept a persons age in Earth years and creates an valid object', () => {
 		expect(age.earthYears).toEqual(10);
+	});
+
+	test('', () => {
+		age/.24
 	});
 
 });
