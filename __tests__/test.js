@@ -49,7 +49,9 @@ describe('The Age class', () => {
 	});
 
 	test('Class contains a function to return how many Venus years a person is expected to live', () => {
-		
+		let age = new Age(20);
+		age.avgLifeExpectancy = 80;
+		expect(age.venusYearsLeft).toEqual(96.77);
 	});
 
 	test('Class contains a function to return how many Mars years a person is expected to live', () => {
