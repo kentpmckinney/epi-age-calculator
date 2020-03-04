@@ -67,7 +67,8 @@ describe('The Age class', () => {
 	});
 
 	test('Class contains a function to calculate life expectancy', () => {
-		
+		let age = new Age(20);
+		expect(age.calculateLifeExpectancy(80)).toEqual(80);
 	});
 
 });
