@@ -26,7 +26,8 @@ describe('The Age class', () => {
 	});
 
 	test('Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)', () => {
-		
+		let age = new Age(42);
+		expect(age.jupiterYears).toEqual(3.54);
 	});
 
 	test('Class contains a function to set a property for average life expectancy', () => {
