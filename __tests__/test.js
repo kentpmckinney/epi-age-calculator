@@ -17,7 +17,7 @@ describe('The Age class', () => {
 
 	test('Class constructor calls a function to return age in Venus years (age/.62 Earth years)', () => {
 		let age = new Age(42);
-		expect(age.mercuryYears).toEqual(67.74);
+		expect(age.venusYears).toEqual(67.74);
 	});
 
 	test('Class constructor calls a function to return age in Mars years (age/1.88 Earth years)', () => {
