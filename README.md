@@ -31,6 +31,7 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | **Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)** | 42 | 3.54 |
 | **Class contains a function to set a property for average life expectancy** | N | N |
 | **Class contains a function to calculate life expectancy** |  |  |
+| **Class contains a function to return how many Earth years a person is expected to live** |  |  |
 | **Class contains a function to return how many Mercury years a person is expected to live** |  |  |
 | **Class contains a function to return how many Venus years a person is expected to live** |  |  |
 | **Class contains a function to return how many Mars years a person is expected to live** |  |  |
