@@ -2,7 +2,7 @@
   "name": "epicodus-age-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "age.js",
+  "main": "src/main.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
