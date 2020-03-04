@@ -28,11 +28,15 @@ export class Age {
   }
   
   calculateVenusYearsLeft() {
-    return parseFloat((this.calculateVenusYears(this._avgLifeExpectancy)-this.mercuryYears).toFixed(2));
+    return parseFloat((this.calculateVenusYears(this._avgLifeExpectancy)-this.venusYears).toFixed(2));
   }
 
   calculateMarsYears(earthYears) {
     return parseFloat((earthYears/1.88).toFixed(2));
+  }
+
+  calculateMarsYearsLeft() {
+    return parseFloat((this.calculateMarsYears(this._avgLifeExpectancy)-this.marsYears).toFixed(2));
   }
 
   calculateJupiterYears(earthYears) {
