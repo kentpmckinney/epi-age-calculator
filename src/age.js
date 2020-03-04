@@ -48,7 +48,7 @@ export class Age {
   }
 
   set avgLifeExpectancy(earthYears) {
-    this._avgLifeExpectancy = earthYears;
+    this._avgLifeExpectancy = calculateLifeExpectancy(earthYears);
     this.earthYearsLeft = this.calculateEarthYearsLeft();
     this.mercuryYearsLeft = this.calculateMercuryYearsLeft();
     this.venusYearsLeft = this.calculateVenusYearsLeft();
@@ -60,6 +60,8 @@ export class Age {
     return this._avgLifeExpectancy;
   }
   
-  
+  calculateLifeExpectancy(earthYears) {
+    return earthYears;
+  }
 
 }
