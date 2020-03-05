@@ -36,10 +36,10 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | **Class contains a function to calculate life expectancy** | set 80 | get 80 ✓ |
 | **Class contains a function to return how many Earth years a person is expected to live** | age: 20; expectancy: 80 | left: 60 ✓ |
 | **Class contains a function to return how many Mercury years a person is expected to live** | age: 20; expectancy: 80 | left: 250 ✓ |
-| **Class contains a function to return how many Venus years a person is expected to live** | age: 20; expectancy: 80 | left: 96.77 |
-| **Class contains a function to return how many Mars years a person is expected to live** | age: 20; expectancy: 80 | left: 31.91 |
-| **Class contains a function to return how many Jupiter years a person is expected to live** | age: 20; expectancy: 80 | left: 5.06 |
-| **If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy** | age: 100; expectancy: 80 | over: 20 |
+| **Class contains a function to return how many Venus years a person is expected to live** | age: 20; expectancy: 80 | left: 96.77 ✓ |
+| **Class contains a function to return how many Mars years a person is expected to live** | age: 20; expectancy: 80 | left: 31.91 ✓ |
+| **Class contains a function to return how many Jupiter years a person is expected to live** | age: 20; expectancy: 80 | left: 5.06 ✓ |
+| **If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy** | age: 100; expectancy: 80 | over: 20 ✓ |
 | **(Optional) Add a UI** |  |  |
 | **(Optional) Return the age Keith Richards will be in dog years on the planet Jupiter in 2073** |  |  |
 | **(Optional) Determine how many mayfly lifespans a person has lived (5 minutes) and compare to age of the sun in Earth years** |  |  |
