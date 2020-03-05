@@ -9,6 +9,7 @@ export class Age {
     this.marsYears = this.calculateMarsYears(earthYears);
     this.jupiterYears = this.calculateJupiterYears(earthYears);
     this._avgLifeExpectancy;
+    this.earthYearsBeyondLifeExpectancy;
   }
 
   calculateEarthYearsLeft() {
@@ -50,6 +51,8 @@ export class Age {
   set avgLifeExpectancy(earthYears) {
     this._avgLifeExpectancy = this.calculateLifeExpectancy(earthYears);
     this.earthYearsLeft = this.calculateEarthYearsLeft();
+    if (this.earthYearsLeft < 0)
+      this.earthYearsBeyondLifeExpectancy = Math.abs(this.earthYearsLeft);
     this.mercuryYearsLeft = this.calculateMercuryYearsLeft();
     this.venusYearsLeft = this.calculateVenusYearsLeft();
     this.marsYearsLeft = this.calculateMarsYearsLeft();
