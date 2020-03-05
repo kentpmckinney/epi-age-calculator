@@ -48,7 +48,7 @@ export class Age {
   }
 
   set avgLifeExpectancy(earthYears) {
-    this._avgLifeExpectancy = calculateLifeExpectancy(earthYears);
+    this._avgLifeExpectancy = this.calculateLifeExpectancy(earthYears);
     this.earthYearsLeft = this.calculateEarthYearsLeft();
     this.mercuryYearsLeft = this.calculateMercuryYearsLeft();
     this.venusYearsLeft = this.calculateVenusYearsLeft();

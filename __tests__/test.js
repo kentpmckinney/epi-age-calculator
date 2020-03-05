@@ -71,4 +71,11 @@ describe('The Age class', () => {
 		expect(age.calculateLifeExpectancy(80)).toEqual(80);
 	});
 
+	test('If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy', () => {
+		let age = new Age(100);
+		age.avgLifeExpectancy = 80;
+		expect(age.earthYearsBeyondLifeExpectancy).toEqual(80);
+	});
+
+	
 });
