@@ -11,8 +11,11 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 
 ### Setup Instructions:
     1. Download a copy of the source code from GitHub from https://github.com/kentpmckinney/epicodus-age-calculator
-    2. Run the command ``npm install`` to download a local cache of the npm packages used by this application
-    3. Navigate to the location of the source and open or run the file index.html in a code editor or web browser
+    2. Install NodeJS if not already installed
+    3. Navigate to the location of the downloaded source files
+    4. Run the command `npm install` to download a local cache of the npm packages used by this application
+    5. Build the application with the command `npm run build`
+    6. Start the application with the command `npm run start`
 
 ### Changelog:
 * 3/2/2020 - Created skeleton project and added templates (0.5 hours)
@@ -22,7 +25,7 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 * 3/3/2020 - Added tests and code for specs (3 hours)
 * 3/4/2020 - Added remaining tests and code for required specs (2 hours)
 * 3/5/2020 - Started to add a basic user interface (0.5 hours)
-* 3/7/2020 - Finished adding a basic user interface (1 hour)
+* 3/7/2020 - Finished adding a basic user interface (1.5 hours)
 
 ### Specifications:
 
@@ -42,4 +45,4 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | **Class contains a function to return how many Jupiter years a person is expected to live** | age: 20; expectancy: 80 | left: 5.06 ✓ |
 | **If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy** | age: 100; expectancy: 80 | over: 20 ✓ |
 | **(Optional) Add a UI** | ✓ | ✓ |
-| **(Optional) Make the application look nice and give it a solar theme** |  |  |
+| **(Optional) Make the application look nice and give it a solar theme** | ✓ | ✓ |
