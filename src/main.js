@@ -3,6 +3,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Age } from './age.js';
 import $ from 'jquery';
+import './style.css';
 
 /* Business Logic */
 let age;

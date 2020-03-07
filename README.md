@@ -21,7 +21,8 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 * 3/3/2020 - Added and troubleshot jest tests (1 hours)
 * 3/3/2020 - Added tests and code for specs (3 hours)
 * 3/4/2020 - Added remaining tests and code for required specs (2 hours)
-* 3/5/2020 - Added basic user interface
+* 3/5/2020 - Started to add a basic user interface (0.5 hours)
+* 3/7/2020 - Finished adding a basic user interface (1 hour)
 
 ### Specifications:
 
@@ -40,7 +41,5 @@ https://github.com/kentpmckinney/epicodus-age-calculator
 | **Class contains a function to return how many Mars years a person is expected to live** | age: 20; expectancy: 80 | left: 31.91 ✓ |
 | **Class contains a function to return how many Jupiter years a person is expected to live** | age: 20; expectancy: 80 | left: 5.06 ✓ |
 | **If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy** | age: 100; expectancy: 80 | over: 20 ✓ |
-| **(Optional) Add a UI** |  |  |
-| **(Optional) Return the age Keith Richards will be in dog years on the planet Jupiter in 2073** |  |  |
-| **(Optional) Determine how many mayfly lifespans a person has lived (5 minutes) and compare to age of the sun in Earth years** |  |  |
+| **(Optional) Add a UI** | ✓ | ✓ |
 | **(Optional) Make the application look nice and give it a solar theme** |  |  |

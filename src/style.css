@@ -1,0 +1,12 @@
+body {
+  /* background-color: #FDD017; */
+  background: radial-gradient(circle at 0, #FFFFFF, #FDD017 100%);
+}
+
+h1 {
+  font-size: 18pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
