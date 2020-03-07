@@ -1,4 +1,6 @@
 /* This file is the webpack entry point */
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Age } from './age.js';
 import $ from 'jquery';
 
@@ -60,16 +62,3 @@ $(document).ready(function(){
   });
 
 });
-
-// this.earthYears = earthYears;
-//     this.earthYearsLeft;
-//     this.mercuryYears = this.calculateMercuryYears(earthYears);
-//     this.mercuryYearsLeft;
-//     this.venusYears = this.calculateVenusYears(earthYears);
-//     this.venusYearsLeft;
-//     this.marsYears = this.calculateMarsYears(earthYears);
-//     this.marsYearsLeft;
-//     this.jupiterYears = this.calculateJupiterYears(earthYears);
-//     this.jupiterYearsLeft;
-//     this._avgLifeExpectancy;
-//     this.earthYearsBeyondLifeExpectancy;
