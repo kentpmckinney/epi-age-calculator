@@ -1,3 +1,5 @@
+<!-- Category: HTML/CSS/JS -->
+
 # Independent Project
 ## Super Galactic Age Calculator
 https://github.com/kentpmckinney/epicodus-age-calculator
