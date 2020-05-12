@@ -38,15 +38,15 @@ Git (optional but recommended)
 
 ## Running Automated Tests
 
-how to run the automated tests
+Jest tests are located in __tests__/test.js
 
 ```
-example
+enter the command 'npm run test'
 ```
 
 ## Deployment
 
-
+Webpack is configured to copy "index.html" and "bundle.js" to the root directory. Those are the two files needed for deployment.
 
 ## Technologies Used
 
@@ -54,7 +54,7 @@ example
 * HTML
 * CSS
 * Webpack
-* Babel
+* Jest
 
 ## Authors
 
@@ -62,10 +62,9 @@ Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://
 
 ### Copyright &copy; 2020 Kent P. McKinney
 
-## Acknowledgments
-
-
 ### Specifications:
+
+This was a graded independent project for Epicodus with the following specifications.
 
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
