@@ -1,31 +1,69 @@
 <!-- Category: Epicodus;HTML/CSS/JS -->
-# Independent Project
-## Super Galactic Age Calculator
-https://github.com/kentpmckinney/epicodus-age-calculator
+# Solar System Age Calculator
 
-##### Author: Kent McKinney - [GitHub](https://github.com/kentpmckinney)
-##### Copyright &copy; 2020 Kent McKinney
-### Description:
+Calculates ages on different planets in the solar system
 
-``This program provides the ability to calculate ages from various locations in the galaxy.``
+https://github.com/kentpmckinney/epi-age-calculator
 
-### Setup Instructions:
-    1. Download a copy of the source code from GitHub from https://github.com/kentpmckinney/epicodus-age-calculator
-    2. Install NodeJS if not already installed
-    3. Navigate to the location of the downloaded source files
-    4. Run the command `npm install` to download a local cache of the npm packages used by this application
-    5. Build the application with the command `npm run build`
-    6. Start the application with the command `npm run start`
+## Previewing this Project
 
-### Changelog:
-* 3/2/2020 - Created skeleton project and added templates (0.5 hours)
-* 3/2/2020 - Added specs to README.md (0.5 hours)
-* 3/3/2020 - Added additional specs to README.md (0.5 hours)
-* 3/3/2020 - Added and troubleshot jest tests (1 hours)
-* 3/3/2020 - Added tests and code for specs (3 hours)
-* 3/4/2020 - Added remaining tests and code for required specs (2 hours)
-* 3/5/2020 - Started to add a basic user interface (0.5 hours)
-* 3/7/2020 - Finished adding a basic user interface (1.5 hours)
+This project is hosted at: https://kentpmckinney.github.io/epi-age-calculator
+
+## Working with the Source Code
+
+The following instructions explain how to set up a development environment for this project on MacOS. Steps will differ depending on the operating system.
+
+### Prerequisites
+
+The following software must be installed and properly configured on the target machine. 
+
+```
+An updated web browser (Internet Explorer is not compatible)
+```
+```
+Node.js
+```
+```
+Git (optional but recommended)
+```
+
+### Setting up a Development Environment
+
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-age-calculator
+   or clone using the repository link: https://github.com/kentpmckinney/epi-age-calculator.git
+2. Navigate to the folder location of the source files in Finder or in the Terminal
+3. Run the command `npm install` to download a local cache of the npm packages used by this application
+4. Build the application with the command `npm run build`
+5. Start the application with the command `npm run start`
+
+## Running Automated Tests
+
+how to run the automated tests
+
+```
+example
+```
+
+## Deployment
+
+
+
+## Technologies Used
+
+* JavaScript
+* HTML
+* CSS
+* Webpack
+* Babel
+
+## Authors
+
+Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+
+### Copyright &copy; 2020 Kent P. McKinney
+
+## Acknowledgments
+
 
 ### Specifications:
 
