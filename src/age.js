@@ -12,32 +12,41 @@ export class Age {
     this.earthYearsBeyondLifeExpectancy;
   }
 
-  calculateEarthYearsLeft = () => 
-    parseFloat((this._avgLifeExpectancy-this.earthYears).toFixed(2));
+  calculateEarthYearsLeft() {
+    return parseFloat((this._avgLifeExpectancy - this.earthYears).toFixed(2));
+  }
 
-  calculateMercuryYears = earthYears =>
-    parseFloat((earthYears/.24).toFixed(2));
+  calculateMercuryYears(earthYears) {
+    return parseFloat((earthYears / .24).toFixed(2));
+  }
 
-  calculateMercuryYearsLeft = () =>
-    parseFloat((this.calculateMercuryYears(this._avgLifeExpectancy)-this.mercuryYears).toFixed(2));
+  calculateMercuryYearsLeft() {
+    return parseFloat((this.calculateMercuryYears(this._avgLifeExpectancy) - this.mercuryYears).toFixed(2));
+  }
 
-  calculateVenusYears = earthYears => 
-    parseFloat((earthYears/.62).toFixed(2));
-  
-  calculateVenusYearsLeft = () =>
-    parseFloat((this.calculateVenusYears(this._avgLifeExpectancy)-this.venusYears).toFixed(2));
+  calculateVenusYears(earthYears) {
+    return parseFloat((earthYears / .62).toFixed(2));
+  }
 
-  calculateMarsYears = earthYears =>
-    parseFloat((earthYears/1.88).toFixed(2));
+  calculateVenusYearsLeft() {
+    return parseFloat((this.calculateVenusYears(this._avgLifeExpectancy) - this.venusYears).toFixed(2));
+  }
 
-  calculateMarsYearsLeft = () =>
-    parseFloat((this.calculateMarsYears(this._avgLifeExpectancy)-this.marsYears).toFixed(2));
+  calculateMarsYears(earthYears) {
+    return parseFloat((earthYears / 1.88).toFixed(2));
+  }
 
-  calculateJupiterYears = earthYears =>
-    parseFloat((earthYears/11.86 ).toFixed(2));
+  calculateMarsYearsLeft() {
+    return parseFloat((this.calculateMarsYears(this._avgLifeExpectancy) - this.marsYears).toFixed(2));
+  }
 
-  calculateJupiterYearsLeft = () =>
-    parseFloat((this.calculateJupiterYears(this._avgLifeExpectancy)-this.jupiterYears).toFixed(2));
+  calculateJupiterYears(earthYears) {
+    return parseFloat((earthYears / 11.86).toFixed(2));
+  }
+
+  calculateJupiterYearsLeft() {
+    return parseFloat((this.calculateJupiterYears(this._avgLifeExpectancy) - this.jupiterYears).toFixed(2));
+  }
 
   set avgLifeExpectancy(earthYears) {
     this._avgLifeExpectancy = this.calculateLifeExpectancy(earthYears);
@@ -53,7 +62,9 @@ export class Age {
   get avgLifeExpectancy() {
     return this._avgLifeExpectancy;
   }
-  
-  calculateLifeExpectancy = earthYears =>
-    earthYears;
+
+  calculateLifeExpectancy(earthYears) {
+    return earthYears;
+  }
+
 }
