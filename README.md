@@ -1,5 +1,5 @@
 <!-- Category: Epicodus;HTML/CSS/JS -->
-# Solar System Age Calculator
+# Planetary Age Calculator
 
 Calculates ages on different planets in the solar system
 
@@ -38,7 +38,7 @@ Git (optional but recommended)
 
 ## Running Automated Tests
 
-Jest tests are located in __tests__/test.js
+Jest tests are located in ``__tests__``
 
 ```
 enter the command 'npm run test'
@@ -62,7 +62,9 @@ Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://
 
 ### Copyright &copy; 2020 Kent P. McKinney
 
-### Specifications:
+### Acknowledgements
+
+https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/tdd-with-javascript-independent-project
 
 This was a graded independent project for Epicodus with the following specifications.
 
