@@ -1,6 +1,12 @@
 body {
-  /* background-color: #FDD017; */
-  background: radial-gradient(circle at 0, #FFFFFF, #FDD017 100%);
+  margin: 8px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -8,5 +14,26 @@ h1 {
 }
 
 h3 {
-  font-size: 14pt;
+  font-size: 12pt;
+}
+
+#results {
+  font-size: 10pt; font-family: 'Space Mono', monospace;
+}
+
+.glowing-border {
+  border-radius: 7px;
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 3px #9ecaed;
+}
+
+.glowing-border:focus { 
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.glowing-border:hover {
+  background-color: lightblue;
 }

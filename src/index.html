@@ -5,27 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Age Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body
-  style="margin: 8px; width: 100%; height: 100%; color: white; background-color: black; background-image: url('./EarthMoon.jpg'); background-repeat: no-repeat; background-size: cover">
+<body style="background-image: url('./EarthMoon.jpg');">
   <div class='container-fluid font-weight-light'>
     <header>
-      <h1>Solar System Age Calculator</h1>
-      <h5>Please enter the information requested below and hit Submit</h5>
+      <h1>Planetary Age Calculator</h1>
       <br>
     </header>
     <main>
       <form>
         <label for="age-earth-years">
-          Age in Earth Years: <input id="age-earth-years" type="number">
+          Age in Earth Years: <input class="glowing-border" id="age-earth-years" type="number">
         </label>
         <br>
         <label for="avg-life-expectancy">
-          Average Life Expectancy: <input id="avg-life-expectancy">
+          Average Life Expectancy: <input class="glowing-border" id="avg-life-expectancy">
         </label>
         <br>
-        <input type="submit" value="Submit">
+        <input class="glowing-border" type="submit" value="Submit">
       </form>
       <br>
       <div id="results"></div>
