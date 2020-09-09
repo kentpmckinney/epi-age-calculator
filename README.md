@@ -1,4 +1,6 @@
 <!-- Category: Epicodus;HTML/CSS/JS -->
+<!-- Porfolio: Yes -->
+
 # Planetary Age Calculator
 
 Calculates ages on different planets in the solar system
