@@ -1,89 +1,77 @@
-<!-- Category: Epicodus;HTML/CSS/JS -->
-<!-- Porfolio: Yes -->
 
 # Planetary Age Calculator
 
 Calculates ages on different planets in the solar system
 
-https://github.com/kentpmckinney/epi-age-calculator
+  <br/>
 
-## Previewing this Project
+### How to Use
+.
 
-This project is hosted at: https://kentpmckinney.github.io/epi-age-calculator
+<br/>
 
-## Working with the Source Code
+### Previewing this Project
 
-The following instructions explain how to set up a development environment for this project on MacOS. Steps will differ depending on the operating system.
+<br/>
 
-### Prerequisites
+### Technologies Used
 
-The following software must be installed and properly configured on the target machine. 
+  <code>HTML/CSS/JS
+Webpack
+Jest</code>
+  <br/>
+  <br/>
 
-```
-An updated web browser (Internet Explorer is not compatible)
-```
-```
-Node.js
-```
-```
-Git (optional but recommended)
-```
+### Working with the Source Code
 
-### Setting up a Development Environment
+<details>
+  <summary>Instructions</summary>
 
-1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-age-calculator
-   or clone using the repository link: https://github.com/kentpmckinney/epi-age-calculator.git
-2. Navigate to the folder location of the source files in Finder or in the Terminal
-3. Run the command `npm install` to download a local cache of the npm packages used by this application
-4. Build the application with the command `npm run build`
-5. Start the application with the command `npm run start`
+  <br>
+  The following are suggestions to help set up a development environment for this project. The actual steps needed may differ slightly depending on the operating system and other factors.
 
-## Running Automated Tests
+  <br/>
+  <br/>
 
-Jest tests are located in ``__tests__``
+  ### Prerequisites
 
-```
-enter the command 'npm run test'
-```
+  The following software must be installed and properly configured on the target machine. 
 
-## Deployment
+  
 
-Webpack is configured to copy "index.html" and "bundle.js" to the root directory. Those are the two files needed for deployment.
+* Git (recommended)
+  <br/>
 
-## Technologies Used
+  ### Setting up a Development Environment
 
-* JavaScript
-* HTML
-* CSS
-* Webpack
-* Jest
+  The following steps are meant to be a quick way to get the project up and running.
 
-## Authors
+  
+1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-age-calculator or clone using the repository link: https://github.com/kentpmckinney/epi-age-calculator.git
+  <br/>
 
-Kent McKinney - [GitHub](https://github.com/kentpmckinney) - [LinkedIn](https://www.linkedin.com/in/kentpmckinney/)
+  ### Notes
 
-### Copyright &copy; 2020 Kent P. McKinney
+  
 
-### Acknowledgements
+  ### Deployment
 
-https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/tdd-with-javascript-independent-project
+  
 
-This was a graded independent project for Epicodus with the following specifications.
+</details>
 
-| Spec | Input | Output |
-| :------------- | :------------- | :------------- |
-| **Class constructor accept a person's age in Earth years and creates an valid object** | age = new Age(10) | age.earthYears == 10 ✓ |
-| **Class constructor calls a function to return age in Mercury years (age/.24 Earth years)** | 42 | 175 ✓ |
-| **Class constructor calls a function to return age in Venus years (age/.62 Earth years)** | 42 | 67.74 ✓ |
-| **Class constructor calls a function to return age in Mars years (age/1.88 Earth years)** | 42 | 22.34 ✓ |
-| **Class constructor calls a function to return age in Jupiter years (age/11.86 Earth years)** | 42 | 3.54 ✓ |
-| **Class contains a function to set a property for average life expectancy** | 80 | 80 ✓ |
-| **Class contains a function to calculate life expectancy** | set 80 | get 80 ✓ |
-| **Class contains a function to return how many Earth years a person is expected to live** | age: 20; expectancy: 80 | left: 60 ✓ |
-| **Class contains a function to return how many Mercury years a person is expected to live** | age: 20; expectancy: 80 | left: 250 ✓ |
-| **Class contains a function to return how many Venus years a person is expected to live** | age: 20; expectancy: 80 | left: 96.77 ✓ |
-| **Class contains a function to return how many Mars years a person is expected to live** | age: 20; expectancy: 80 | left: 31.91 ✓ |
-| **Class contains a function to return how many Jupiter years a person is expected to live** | age: 20; expectancy: 80 | left: 5.06 ✓ |
-| **If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy** | age: 100; expectancy: 80 | over: 20 ✓ |
-| **(Optional) Add a UI** | ✓ | ✓ |
-| **(Optional) Make the application look nice and give it a solar theme** | ✓ | ✓ |
+<br/>
+
+### Authors
+
+[kentpmckinney](https://github.com/kentpmckinney), [dependabot[bot]](https://github.com/apps/dependabot)
+<br/>
+<br/>
+
+### Acknowledgments
+
+<sub>https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/tdd-with-javascript-independent-project</sub>
+<br/>
+<br/>
+
+###### <sub>Copyright&copy; 2020 [kentpmckinney](https://github.com/kentpmckinney), [dependabot[bot]](https://github.com/apps/dependabot). All rights reserved.</sub>
