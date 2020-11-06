@@ -11,6 +11,7 @@ Calculates ages on different planets in the solar system
 <br/>
 
 ### Previewing this Project
+![Screenshot](http://kentpmckinney.github.io/epi-age-calculator/epi-age-calculator.gif)
 
 <br/>
 
