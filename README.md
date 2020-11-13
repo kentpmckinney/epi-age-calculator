@@ -6,7 +6,7 @@ Calculates ages on different planets in the solar system
   <br/>
 
 ### How to Use
-.
+Fill in the age and life expectancy fields and then choose Submit.
 
 <br/>
 
