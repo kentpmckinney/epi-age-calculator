@@ -25,7 +25,7 @@ Jest</code>
 
 ### Working with the Source Code
 
-<details markdown='1'>
+<details markdown="1">
   <summary>Instructions</summary>
 
   <br>
