@@ -3,7 +3,7 @@
 
 Calculates ages on different planets in the solar system
 
-  <br/>
+<br/>
 
 ### How to Use
 Fill in the age and life expectancy fields and then choose Submit.
@@ -19,11 +19,11 @@ A [live demo](https://kentpmckinney.github.io/epi-age-calculator) of this applic
 
 ### Technologies Used
 
-  <code>HTML/CSS/JS
+<code>HTML/CSS/JS
 Webpack
 Jest</code>
-  <br/>
-  <br/>
+<br/>
+<br/>
 
 ### Working with the Source Code
 
@@ -61,7 +61,7 @@ The following steps are meant to be a quick way to get the project up and runnin
 
 
 
-<!-- </details> -->
+</details>
 
 <br/>
 
