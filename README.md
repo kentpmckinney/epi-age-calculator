@@ -11,6 +11,8 @@ Fill in the age and life expectancy fields and then choose Submit.
 <br/>
 
 ### Previewing this Project
+A [live demo](https://kentpmckinney.github.io/epi-age-calculator) of this application is available
+
 ![Screenshot](http://kentpmckinney.github.io/epi-age-calculator/epi-age-calculator.gif)
 
 <br/>
@@ -26,13 +28,13 @@ Jest</code>
 ### Working with the Source Code
 
 <details markdown="1">
-  <summary>Instructions</summary>
+  <summary markdown="1">Instructions</summary>
 
-  <br/>
+  <br markdown="1"/>
   The following are suggestions to help set up a development environment for this project. The actual steps needed may differ slightly depending on the operating system and other factors.
 
-  <br/>
-  <br/>
+  <br markdown="1"/>
+  <br markdown="1"/>
 
   ### Prerequisites
 
@@ -41,7 +43,7 @@ Jest</code>
   
 
 * Git (recommended)
-  <br/>
+  <br markdown="1"/>
 
   ### Setting up a Development Environment
 
@@ -49,7 +51,7 @@ Jest</code>
 
   
 1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-age-calculator or clone using the repository link: https://github.com/kentpmckinney/epi-age-calculator.git
-  <br/>
+  <br markdown="1"/>
 
   ### Notes
 
@@ -61,18 +63,18 @@ Jest</code>
 
 </details>
 
-<br/>
+<br markdown="1"/>
 
 ### Authors
 
 [kentpmckinney](https://github.com/kentpmckinney), [dependabot[bot]](https://github.com/apps/dependabot)
-<br/>
-<br/>
+<br markdown="1"/>
+<br markdown="1"/>
 
 ### Acknowledgments
 
 <sub markdown="1">https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/tdd-with-javascript-independent-project</sub>
-<br/>
-<br/>
+<br markdown="1"/>
+<br markdown="1"/>
 
 ###### <sub markdown="1">Copyright&copy; 2020 [kentpmckinney](https://github.com/kentpmckinney), [dependabot[bot]](https://github.com/apps/dependabot). All rights reserved.</sub>
