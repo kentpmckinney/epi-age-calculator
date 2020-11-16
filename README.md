@@ -43,21 +43,17 @@ The following software must be installed and properly configured on the target m
 
 
 * Git (recommended)
+* An updated web browser (Internet Explorer may not be compatible)
 <br/>
 
 ### Setting up a Development Environment
 
 The following steps are meant to be a quick way to get the project up and running.
 
-
 1. Download a copy of the source code from: https://github.com/kentpmckinney/epi-age-calculator or clone using the repository link: https://github.com/kentpmckinney/epi-age-calculator.git
 <br/>
 
-### Notes
 
-
-
-### Deployment
 
 
 
