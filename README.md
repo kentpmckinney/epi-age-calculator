@@ -32,8 +32,6 @@ Jest</code>
 
 <br/>
 The following are suggestions to help set up a development environment for this project. The actual steps needed may differ slightly depending on the operating system and other factors.
-
-<br/>
 <br/>
 
 ### Prerequisites
@@ -55,7 +53,8 @@ The following steps are meant to be a quick way to get the project up and runnin
 
 
 
-
+### Deployment<br>
+Run the command <code>npm run build</code> to build a production version of the application under <code>./build</code>
 
 </details>
 
